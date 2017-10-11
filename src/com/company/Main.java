@@ -22,7 +22,8 @@ public class Main {
     long to = 100;
     int randomNumber;
         randomNumber = random.nextInt((int) ((to-from + 1) + from));
-        //
+
+    // Set the starting value of the guessed number at zero
     int guessedNumber = 0;
 
     //The random number is between 1 and 100.
